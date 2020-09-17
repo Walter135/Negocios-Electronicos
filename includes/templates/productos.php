@@ -9,185 +9,49 @@
 
        ?>
        <div class="contenedor">
-           <nav class="navegacion-principal menu-programa clearfix secundaria">
+           <nav class="navegacion-principal clearfix secundaria">
             <a href="#memorias">Memorias</a>
-            <a href="#discosduro">Discos Duros</a>
-            <a href="#placasmadre">Placas Madre</a>
-            <a href="#procesadores">Procesadores</a>
-            <a href="#tarjetasvideo">Tarjetas de Video</a>
-            <a href="#case">Case</a>
-            <a href="#fuentespoder">Fuentes de Poder</a>
-            <a href="#laptops">Laptops</a> 
+            <a href="calendario.php">Discos Duros</a>
+            <a href="productos.php">Placas Madre</a>
+            <a href="invitados.php">Procesadores</a>
+            <a href="invitados.php">Tarjetas de Video</a>
+            <a href="registro.php">Case</a>
+            <a href="conferencia.php">Fuentes de Poder</a>
+            <a href="calendario.php">Laptops</a> 
           </nav>
     
-          <div class="galeria ocultar info-producto" id= "memorias">
-            <a href="img/placasmadre/Asrock.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Asrock.jpg">
+            <div class="galeria">
+            <a href="img/galeria/01.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/01.jpg">
             </a>
-            <a href="img/placasmadre/DataOne.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/DataOne.jpg">
+            <a href="img/galeria/02.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/02.jpg">
             </a>
-            <a href="img/placasmadre/Gigabyte.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Gigabyte.jpg">
+            <a href="img/galeria/03.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/03.jpg">
             </a>
-            <a href="img/placasmadre/Sapphire.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Sapphire.jpg">
+            <a href="img/galeria/04.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/04.jpg">
             </a>
-            <a href="img/placasmadre/Seasonic.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Seasonic.jpg">
+            <a href="img/galeria/05.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/05.jpg">
             </a>
-            <a href="img/placasmadre/Thermaltake.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Thermaltake.jpg">
+            <a href="img/galeria/06.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/06.jpg">
             </a>
-          </div>
-
-          <div class="galeria ocultar" id= "discosduro">
-            <a href="img/placasmadre/Asrock.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Asrock.jpg">
+            <a href="img/galeria/07.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/07.jpg">
             </a>
-            <a href="img/placasmadre/DataOne.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/DataOne.jpg">
+            <a href="img/galeria/08.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/08.jpg">
             </a>
-            <a href="img/placasmadre/Gigabyte.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Gigabyte.jpg">
+            <a href="img/galeria/09.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/09.jpg">
             </a>
-            <a href="img/placasmadre/Sapphire.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Sapphire.jpg">
+            <a href="img/galeria/10.jpg" data-lightbox="galeria">
+            <img src="img/galeria/thumbs/10.jpg">
             </a>
-            <a href="img/placasmadre/Seasonic.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Seasonic.jpg">
-            </a>
-            <a href="img/placasmadre/Thermaltake.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Thermaltake.jpg">
-            </a>
-          </div>
-
-          <div class="galeria ocultar" id= "placasmadre">
-            <a href="img/placasmadre/Asrock.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Asrock.jpg">
-            </a>
-            <a href="img/placasmadre/DataOne.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/DataOne.jpg">
-            </a>
-            <a href="img/placasmadre/Gigabyte.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Gigabyte.jpg">
-            </a>
-            <a href="img/placasmadre/Sapphire.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Sapphire.jpg">
-            </a>
-            <a href="img/placasmadre/Seasonic.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Seasonic.jpg">
-            </a>
-            <a href="img/placasmadre/Thermaltake.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Thermaltake.jpg">
-            </a>
-          </div>
-
-          <div class="galeria ocultar" id= "procesadores">
-            <a href="img/placasmadre/Asrock.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Asrock.jpg">
-            </a>
-            <a href="img/placasmadre/DataOne.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/DataOne.jpg">
-            </a>
-            <a href="img/placasmadre/Gigabyte.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Gigabyte.jpg">
-            </a>
-            <a href="img/placasmadre/Sapphire.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Sapphire.jpg">
-            </a>
-            <a href="img/placasmadre/Seasonic.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Seasonic.jpg">
-            </a>
-            <a href="img/placasmadre/Thermaltake.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Thermaltake.jpg">
-            </a>
-          </div>
-
-          <div class="galeria ocultar" id= "tarjetasvideo">
-            <a href="img/placasmadre/Asrock.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Asrock.jpg">
-            </a>
-            <a href="img/placasmadre/DataOne.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/DataOne.jpg">
-            </a>
-            <a href="img/placasmadre/Gigabyte.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Gigabyte.jpg">
-            </a>
-            <a href="img/placasmadre/Sapphire.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Sapphire.jpg">
-            </a>
-            <a href="img/placasmadre/Seasonic.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Seasonic.jpg">
-            </a>
-            <a href="img/placasmadre/Thermaltake.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Thermaltake.jpg">
-            </a>
-          </div>
-
-          <div class="galeria ocultar" id= "case">
-            <a href="img/placasmadre/Asrock.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Asrock.jpg">
-            </a>
-            <a href="img/placasmadre/DataOne.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/DataOne.jpg">
-            </a>
-            <a href="img/placasmadre/Gigabyte.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Gigabyte.jpg">
-            </a>
-            <a href="img/placasmadre/Sapphire.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Sapphire.jpg">
-            </a>
-            <a href="img/placasmadre/Seasonic.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Seasonic.jpg">
-            </a>
-            <a href="img/placasmadre/Thermaltake.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Thermaltake.jpg">
-            </a>
-          </div>
-
-          <div class="galeria ocultar" id= "fuentespoder">
-            <a href="img/placasmadre/Asrock.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Asrock.jpg">
-            </a>
-            <a href="img/placasmadre/DataOne.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/DataOne.jpg">
-            </a>
-            <a href="img/placasmadre/Gigabyte.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Gigabyte.jpg">
-            </a>
-            <a href="img/placasmadre/Sapphire.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Sapphire.jpg">
-            </a>
-            <a href="img/placasmadre/Seasonic.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Seasonic.jpg">
-            </a>
-            <a href="img/placasmadre/Thermaltake.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Thermaltake.jpg">
-            </a>
-          </div>
-
-          <div class="galeria ocultar" id= "laptops">
-            <a href="img/placasmadre/Asrock.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Asrock.jpg">
-            </a>
-            <a href="img/placasmadre/DataOne.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/DataOne.jpg">
-            </a>
-            <a href="img/placasmadre/Gigabyte.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Gigabyte.jpg">
-            </a>
-            <a href="img/placasmadre/Sapphire.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Sapphire.jpg">
-            </a>
-            <a href="img/placasmadre/Seasonic.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Seasonic.jpg">
-            </a>
-            <a href="img/placasmadre/Thermaltake.jpg" data-lightbox="galeria">
-            <img src="img/placasmadre/thumbs/Thermaltake.jpg">
-            </a>
-          </div>
-
+        </div>
         </div>
       <div style="clear:both"></div>
        <?php 

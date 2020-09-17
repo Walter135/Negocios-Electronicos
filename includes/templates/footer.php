@@ -20,7 +20,7 @@
       </div>
     </div>
     <p class="copyright">
-      Todos los derechos reservados RITSOLUTION EIRL. 2020
+      Todos los derechos reservados GDLWEBCAMP 2016.
     </p>
 
 
