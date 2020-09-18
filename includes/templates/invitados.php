@@ -45,25 +45,6 @@
                 ?>
                 </body>
                 
-
-                 
-         <?php while ($productoxCategoria=$resultado->fetch_assoc()) { ?>
-                  <li>
-                    <div class="invitado">
-                      <a class="invitado-info" href="#invitado<?php echo $productoxCategoria["ID_PRODUCTO"] ?>">
-                      <img src="img/<?php echo $productoxCategoria["IMAGEN"] ?>" alt="imagen invitado">
-                      <p><?php echo $productoxCategoria["DESC_REDUCIDA"] ?> Precio: S/ <?php echo $productoxCategoria["PRECIO"]?></p>
-                      </a>
-                    </div>
-                  </li>
-                  <div style="display: none;">
-                    <div class="producto-info" id="producto<?php echo $productoxCategoria["ID_PRODUCTO"] ?>">
-                      <h2><?php echo $productoxCategoria['MARCA']." ".$productoxCategoria['MODELO'] ?></h2>
-                      <img src="img/<?php echo $productoxCategoria["IMAGEN"] ?>" alt="imagen articulo">
-                      <p><?php echo $productoxCategoria['DESC_REDUCIDA']; ?></p>
-                    </div>
-                  </div>
-         <?php } ?>
                 </ul>
           </section>
        <?php 

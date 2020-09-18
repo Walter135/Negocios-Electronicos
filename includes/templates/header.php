@@ -43,7 +43,30 @@
    ?>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+      
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/
+
+
+
+
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -81,7 +104,7 @@
   <div class="barra">
     <div class="contenedor clearfix">
       <div class="logo">
-        <a href="index.php">
+        <a href="index2.php">
         <img src="img/logo.svg" alt="logo gdlwebcamp">
         </a>
       </div>
@@ -91,9 +114,9 @@
         <span></span>
       </div>
       <nav class="navegacion-principal clearfix">
-        <a href="conferencia.php">Home</a>
+        <a href="index2.php">Home</a>
         <a href="productos.php">Productos</a>
-        <a href="invitados.php">Nosotros</a>
+        <a href="nosotros.php">Nosotros</a>
         <a href="invitados.php">Contacto</a>
         <a href="registro.php">Carrito</a>
         <div style="display: inline-block;margin-left: 120px;">
