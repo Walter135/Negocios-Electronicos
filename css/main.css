@@ -376,6 +376,45 @@ div.detalle-evento p {
 	font-size: 20px
 }
 
+ul.lista-productos li {
+	padding: 10px;
+	float: left
+}
+
+div.producto {
+	position: relative;
+	overflow: hidden
+}
+
+div.producto img {
+	max-width: 100%;
+	-webkit-transition: all .5s ease-in-out
+}
+
+div.producto:hover img {
+	-webkit-transform: scale(1.1)
+}
+
+div.producto p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px 10px;
+	margin: 0;
+	background-color: rgba(0, 0, 0, .55);
+	width: 100%;
+	text-align: left;
+	font-family: Oswald, sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	-webkit-transition: all .5s ease-in-out
+}
+
+div.producto:hover p {
+	bottom: -80px;
+	opacity: 0
+}
+
 ul.lista-invitados li {
 	padding: 10px;
 	float: left
@@ -857,6 +896,15 @@ div.cboxElement {
 	}
 }
 
+@media only screen and (min-width:480px) {
+	.contenedor {
+		width: 95%
+	}
+	ul.lista-productos li {
+		width: 50%
+	}
+}
+
 @media only screen and (min-width:768px) {
 	div.informacion-evento {
 		width: 70%;
@@ -926,6 +974,9 @@ div.cboxElement {
 		display: table-cell
 	}
 	ul.lista-invitados li {
+		width: 33.3%
+	}
+	ul.lista-productos li {
 		width: 33.3%
 	}
 	ul.resumen-evento li {
