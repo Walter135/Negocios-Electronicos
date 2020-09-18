@@ -1,6 +1,6 @@
 <?php 
 require 'paypal/autoload.php';
-define('URL_SITIO','http://localhost/proyecto');
+define('URL_SITIO','http://localhost/Proyecto-produccion');
 $apiContext = new \PayPal\Rest\ApiContext(
     new \PayPal\Auth\OAuthTokenCredential(
 		'AUKZqfmpqHgl_TH1dYpc4VxYFY7sgr2usiAOjRPsDdDw_VywOupBh9MAYklRjWXltcpW5GuRKL1u1K-t',//ClienteID

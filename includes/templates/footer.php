@@ -66,6 +66,7 @@
   <script src="js/jquery.animateNumber.js"></script>
   <script src="js/jquery.countdown.js"></script>
   <script src="js/jquery.lettering.js"></script>
+  <script src="js/admin-ajax.js"></script>
   <?php 
         $archivo=basename($_SERVER['PHP_SELF']);
         $pagina=str_replace(".php","",$archivo);

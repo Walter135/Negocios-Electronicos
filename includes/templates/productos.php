@@ -36,7 +36,7 @@
                         <li>
                           <div class="producto">
                             <a class="producto-info">
-                            <img src="img/<?php echo $productoxCategoria["IMAGEN"] ?>.jpg" alt="imagen producto">
+                            <img src="img/<?php echo $productoxCategoria["IMAGEN"] ?>" alt="imagen producto">
                             <p><?php echo $productoxCategoria["DESC_REDUCIDA"] ?> Precio: S/ <?php echo $productoxCategoria["PRECIO"]?></p>
                             </a>
                           </div>

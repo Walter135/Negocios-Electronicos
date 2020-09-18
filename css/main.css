@@ -1104,6 +1104,10 @@ div.cboxElement {
 	clear: both
 }
 
+.center{
+	text-align: center;
+}
+
 @media print {
 	*,
 	:after,
