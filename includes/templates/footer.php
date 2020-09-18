@@ -70,7 +70,7 @@
   <?php 
         $archivo=basename($_SERVER['PHP_SELF']);
         $pagina=str_replace(".php","",$archivo);
-        if ($pagina=='invitados' || $pagina=='index') {
+        if ($pagina=='invitados' || $pagina=='index' || $pagina =='productos') {
           echo '<script src="js/jquery.colorbox.js"></script>';
         }
         elseif($pagina=='conferencia'){

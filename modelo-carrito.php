@@ -1,5 +1,5 @@
 <?php 
-		include_once 'funciones/funciones.php';
+		include_once 'includes/funciones/bd_conexion.php';
 
 	if($_POST['registro']=='eliminar'){
 

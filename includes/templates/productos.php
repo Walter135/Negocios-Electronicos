@@ -35,7 +35,7 @@
                     <?php while ($productoxCategoria=$resultadoProductos->fetch_assoc()) { ?>
                         <li>
                           <div class="producto">
-                            <a class="producto-info">
+                            <a href="elemento.php?id=<?php echo $productoxCategoria["ID_PRODUCTO"] ?>">
                             <img src="img/<?php echo $productoxCategoria["IMAGEN"] ?>" alt="imagen producto">
                             <p><?php echo $productoxCategoria["DESC_REDUCIDA"] ?> Precio: S/ <?php echo $productoxCategoria["PRECIO"]?></p>
                             </a>

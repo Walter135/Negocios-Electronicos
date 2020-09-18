@@ -31,18 +31,33 @@
             echo $e->getMessage();
           }
 
+          $total=0;
+          $cont = 1;
         while($compra=$resultado->fetch_assoc()){ ?>
           <tr>
-          <td class="center"><?php echo $compra['id']; ?></td>
+          <td class="center"><?php echo $cont; ?></td>
           <td class="center" width="25%"><img src="img/<?php echo $compra['IMAGEN']; ?>" width="300px"></td>
           <td class="center"><?php echo $compra['MARCA']; ?></td>
           <td class="center"><?php echo $compra['PRECIO']; ?></td>
           <td class="center"><?php echo $compra['cantidad']; ?></td>
           <td class="center"><?php echo $compra['cantidad'] * $compra['PRECIO']; ?></td>
-          <td class="center"><a href="#" data-id="<?php echo $compra['id']; ?>" data-tipo="carrito" class="btn bg-maroon btn-flat margin borrar-registro"><i class="fa fa-trash"></i></a></td>
+          <td class="center"><a href="#" data-id="<?php echo $compra['id']; ?>" data-tipo="carrito" class="btn bg-maroon btn-flat margin borrar-registro"><i class="fas fa-trash-alt"></i></a></td>
           </tr>
-          <?php } ?>
+          <?php 
+          $total = $total + $compra['cantidad'] * $compra['PRECIO'];
+          $cont = $cont + 1;
+           } ?>
           <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Costo total: </td>
+            <td class="center"><?php echo $total ?></td>
+        </tr>
+          <tr>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>

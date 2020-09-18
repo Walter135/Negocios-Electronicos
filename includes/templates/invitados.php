@@ -1,7 +1,7 @@
       <?php 
           try {
               require_once('includes/funciones/bd_conexion.php');
-              $sql="SELECT * from invitados";
+              $sql="SELECT * from producto";
               $resultado=$conn->query($sql);
           } catch (Exception $e) {
             echo $e->getMessage();
@@ -47,20 +47,20 @@
                 
 
                  
-         <?php while ($invitados=$resultado->fetch_assoc()) { ?>
+         <?php while ($productoxCategoria=$resultado->fetch_assoc()) { ?>
                   <li>
                     <div class="invitado">
-                      <a class="invitado-info" href="#invitado<?php echo $invitados["invitado_id"] ?>">
-                      <img src="img/invitados/<?php echo $invitados["url"] ?>" alt="imagen invitado">
-                      <p><?php echo $invitados["nombre_invitado"]." ".$invitados["apellido_invitado"] ?></p>
+                      <a class="invitado-info" href="#invitado<?php echo $productoxCategoria["ID_PRODUCTO"] ?>">
+                      <img src="img/<?php echo $productoxCategoria["IMAGEN"] ?>" alt="imagen invitado">
+                      <p><?php echo $productoxCategoria["DESC_REDUCIDA"] ?> Precio: S/ <?php echo $productoxCategoria["PRECIO"]?></p>
                       </a>
                     </div>
                   </li>
                   <div style="display: none;">
-                    <div class="invitado-info" id="invitado<?php echo $invitados["invitado_id"] ?>">
-                      <h2><?php echo $invitados['nombre_invitado']." ".$invitados['apellido_invitado'] ?></h2>
-                      <img src="img/<?php echo $invitados["url"] ?>" alt="imagen invitado">
-                      <p><?php echo $invitados['descripcion']; ?></p>
+                    <div class="producto-info" id="producto<?php echo $productoxCategoria["ID_PRODUCTO"] ?>">
+                      <h2><?php echo $productoxCategoria['MARCA']." ".$productoxCategoria['MODELO'] ?></h2>
+                      <img src="img/<?php echo $productoxCategoria["IMAGEN"] ?>" alt="imagen articulo">
+                      <p><?php echo $productoxCategoria['DESC_REDUCIDA']; ?></p>
                     </div>
                   </div>
          <?php } ?>

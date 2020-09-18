@@ -34,7 +34,7 @@
   <?php 
         $archivo=basename($_SERVER['PHP_SELF']);
         $pagina=str_replace(".php","",$archivo);
-        if ($pagina=='invitados' || $pagina=='index') {
+        if ($pagina=='invitados' || $pagina=='index' || $pagina =='productos') {
           echo '<link rel="stylesheet" href="css/colorbox.css">';
         }
         elseif($pagina=='conferencia'){
@@ -67,7 +67,7 @@
         </nav>
         <div class="informacion-evento">
           <div class="clearfix">
-            <p class="fecha"><i class="fas fa-calendar-alt"></i> 27-07 Junio</p>
+            <p class="fecha"><i class="fas fa-calendar-alt"></i> 18-09 Setiembre</p>
             <p class="ciudad"><i class="fas fa-map-marker-alt"></i> Lima, Perú</p>
           </div>
           <h1 class="nombre-sitio">RITSOLUTION EIRL</h1>
@@ -92,7 +92,6 @@
       </div>
       <nav class="navegacion-principal clearfix">
         <a href="conferencia.php">Home</a>
-        <a href="calendario.php">Categorias</a>
         <a href="productos.php">Productos</a>
         <a href="invitados.php">Nosotros</a>
         <a href="invitados.php">Contacto</a>

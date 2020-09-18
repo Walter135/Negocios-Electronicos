@@ -12,17 +12,9 @@ $(document).ready(function(){
 				console.log(data);
 				var resultado=data;
 				if(resultado.respuesta=='exito'){
-					swal(
-					  'Correcto',
-					  'Se guardó correctamente',
-					  'success'
-					)					
+					alert("Exito")				
 				}else{
-					swal(
-					  'Error',
-					  'Hubo un error',
-					  'error'
-					  )	
+					alert("Error");
 				}
 			}
 		})
@@ -80,18 +72,9 @@ $(document).ready(function(){
 	        success:function(data){
 	          var resultado=JSON.parse(data);
 	          if(resultado.respuesta=='exito'){
-	          	swal(
-			      'Eliminado!',
-			      'Su archivo ha sido borrado.',
-			      'success'
-		    	)
 	          	jQuery('[data-id="'+resultado.id_eliminado+'"]').parents('tr').remove();
 	          }else{
-	          	swal(
-				  'Error',
-				  'Algo salio mal!',
-				  'error'
-				)
+	          	console.log("Error");
 	          }
 			}
       	})

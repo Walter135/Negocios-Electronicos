@@ -57,6 +57,10 @@ $(function() {
         inline: !0,
         width: "50%"
     }),
+    $(".producto-info").colorbox({
+        inline: !0,
+        width: "50%"
+    }),
     $(".boton_newsletter").colorbox({
         inline: !0,
         width: "50%"
